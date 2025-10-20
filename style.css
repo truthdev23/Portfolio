@@ -278,6 +278,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 12px;
   margin: 12px 0 18px;
+  justify-items: center;
 }
 
 .contact__chip {
@@ -286,11 +287,12 @@ body {
   justify-content: center;
   gap: 8px;
   padding: 12px;
-  border-radius: 12px;
+  border-radius: 10px;
   background: var(--card);
   border: 1px solid var(--border);
   color: var(--text);
   text-decoration: none;
+  width: 80%;
 }
 
 .contact__chip:hover {
